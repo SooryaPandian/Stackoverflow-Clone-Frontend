@@ -73,7 +73,7 @@ const MobileSideBar = (props) => {
 									Stack Overflow
 								</p>
 							</NavLink>
-							<NavLink
+							{/* <NavLink
 								activeClassName="active"
 								className="link"
 								to="/tags"
@@ -93,7 +93,7 @@ const MobileSideBar = (props) => {
 								to="/jobs"
 							>
 								<p>Jobs</p>
-							</NavLink>
+							</NavLink> */}
 						</div>
 						<div className="teams-tabs">
 							<p className="title fc-light">TEAMS</p>

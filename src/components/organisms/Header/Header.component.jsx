@@ -52,19 +52,14 @@ const Header = ({auth: {isAuthenticated, loading, user}, logout}) => {
       <Link to='/' className='s-navigation--item is-selected'>
         Products
       </Link>
-      <Link to='/' className='s-navigation--item not-selected'>
-        Customers
-      </Link>
-      <Link to='/' className='s-navigation--item not-selected'>
-        Use cases
-      </Link>
+      
     </div>
   );
 
   const guestLinks = (
     <div className='btns'>
-      <LinkButton text={'Log in'} link={'/login'} type={'s-btn__primary'} />
-      <LinkButton text={'Sign up'} link={'/register'} type={'s-btn__filled'} />
+      
+      <LinkButton text={'Connect'} link={'/register'} type={'s-btn__filled'} />
     </div>
   );
 
